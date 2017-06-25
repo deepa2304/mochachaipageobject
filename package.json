@@ -1,0 +1,22 @@
+{
+  "name": "mochachai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --reporter mochawesome --reporter-options reportDir=./Test reportFilename = testrun.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "Faker": "^0.7.2",
+    "chai": "^4.0.2",
+    "chai-as-promised": "^7.0.0",
+    "chromedriver": "^2.30.1",
+    "fake": "^0.2.2",
+    "faker": "^4.1.0",
+    "mocha": "^3.4.2",
+    "mochawesome": "^2.2.1",
+    "selenium-webdriver": "^3.4.0"
+  }
+}
