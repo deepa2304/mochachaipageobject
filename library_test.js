@@ -27,7 +27,7 @@ var page;
  	});
 
 	it('text2 ',function(){
-		console.log('testing ejnkins checkin');
+		console.log('testing jenkins checkin');
 		var submitbtn = this.driver.findElement(By.css('.btn-lg'));
 		this.driver.findElement(By.css('Input')).sendKeys('user@email.com');
 		submitbtn.click();
